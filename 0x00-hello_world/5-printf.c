@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- *main - Entry point
- * Always return 0 when the code runs successfully
- * */
+*main - Entry point
+*
+* Retrun: Always 0 (Success)
+*/
 
 int main(void)
 {
