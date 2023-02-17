@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
-*main - Entry point
+*main - A programm that prints a line using the prinf function
 *
-* Retrun: Always 0 (Success)
+*Description: 'This a C programme'
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
