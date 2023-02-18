@@ -12,6 +12,7 @@ int main(void)
 {
 	char ch;
 	int i = 97;
+
 	while (i < 123)
 {
 	ch = i;
