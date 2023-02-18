@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n;
-        int last_nr = n % 10;
+        int last_nr = n%10;
 	
 	/*last_nr = n % 10; */	
 	srand(time(0));
