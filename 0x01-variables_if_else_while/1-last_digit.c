@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <conio.h>
 
 /**
  * main- Entry point
@@ -13,7 +12,7 @@
 int main(void)
 {
 	int n;
-        int last_nr= n % 10;
+        int last_nr = n % 10;
 	
 	/*last_nr = n % 10; */	
 	srand(time(0));
