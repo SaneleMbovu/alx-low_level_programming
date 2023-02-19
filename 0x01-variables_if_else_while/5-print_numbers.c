@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
+
 /**
  * main - Determine if the last digit of a random number is
  * greater than or less than 5, or is zero..
@@ -9,9 +11,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (int i = 0; i < 10; i++)
 {
-	printf("%d", i)
+	printf("%d", i);
 }
 	return (0);
 }
