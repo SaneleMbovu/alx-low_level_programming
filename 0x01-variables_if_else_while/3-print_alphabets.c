@@ -24,9 +24,10 @@ int main(void)
 	while (z < 91)
 {
 	upper_case = z;
-	putchar(upper_case\n);
+	putchar(upper_case);
 	z++;
 }
+	putchar('\n')
 	return (0);
 }
 
