@@ -21,7 +21,7 @@ int main(void)
 	putchar(lower_case);
 	i++;
 }
-	while (z < 90)
+	while (z < 91)
 {
 	upper_case = z;
 	putchar(upper_case);
