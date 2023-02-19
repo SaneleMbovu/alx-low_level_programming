@@ -11,11 +11,13 @@
 int main(void)
 {
 	char ch;
+	int i = 123;
 
-	for (int i = 123; i > 96; i--)
+	while (i > 96)
 {
 	ch = i;
 	putchar(ch);
+	i--;
 }
 
 	putchar('\n');
