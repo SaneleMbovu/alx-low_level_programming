@@ -13,11 +13,15 @@ int main(void)
 	char ch;
 	int i = 97;
 
-	while (i < 123 && i != 101 && i != 113)
+	for (i = 97; i < 123; i++)
 {
+	if (i == 103)
+	continue;
+	else if (i == 113)
+	continue;
+	else
 	ch = i;
 	putchar(ch);
-	i++;
 }
 
 	putchar('\n');
