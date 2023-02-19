@@ -13,7 +13,7 @@ int main(void)
 	char ch;
 	int i = 97;
 
-	while (i < 123 && i != 101 && i != 113);
+	while (i < 123 && i != 101 && i != 113)
 {
 	ch = i;
 	putchar(ch);
