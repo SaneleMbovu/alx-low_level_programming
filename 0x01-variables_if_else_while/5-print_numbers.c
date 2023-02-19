@@ -2,16 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - Determine if the last digit of a random number is
- * greater than or less than 5, or is zero..
-(*
+ * main - Entry point
+ *
+ * Description: this code prints all base 10 numbers that are single digits
+ *
  * Return: 0 on success
  */
 int main(void)
 {
-	int i;
+	int i = 0;
 
-	for (int i = 0; i < 10; i++)
+	while (int i = 0; i < 10; i++)
 {
 	printf("%d", i);
 }
