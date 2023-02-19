@@ -15,7 +15,7 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 {
-	if (i == 103)
+	if (i == 101)
 	continue;
 	else if (i == 113)
 	continue;
