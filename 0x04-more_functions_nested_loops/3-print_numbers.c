@@ -7,7 +7,7 @@ void print_numbers(void)
 	char num;
 	int i = 48;
 
-	while (i <= 57 )
+	while(i <= 57 )
 
 	num = i;
 	putchar(num);
