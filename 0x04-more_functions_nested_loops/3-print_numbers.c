@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - prints the digits 1-9
+ * print_numbers - prints the digits 0-9
  */
 void print_numbers(void)
 
+{
 	char num;
 	int i = 48;
 
