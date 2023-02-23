@@ -4,13 +4,19 @@
  * print_numbers - prints the digits 1-9
  */
 void print_numbers(void)
-{
-	int i = '0';
 
-	while (i <= '9')
+	char num;
+	int i = 48;
+
+	while (i <= 57 )
 {
-	putchar(i);
+	num = i;
+	putchar(num);
 	i++;
+
 }
+
 	putchar('\n');
+	return (0);
 }
+
