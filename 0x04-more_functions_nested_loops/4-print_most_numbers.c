@@ -19,12 +19,12 @@ void print_most_numbers(void)
 	else if (i == 52)
 	continue;
 
-	putchar(num);
+	_putchar(num);
 
 
 }
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
 
